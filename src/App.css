@@ -1,0 +1,113 @@
+body {
+    background-color: #f4f4f4;
+    padding: 30px;
+    color: #333;
+    background-image: url('../src/assets/pexels-earano-3608311.jpg');
+    background-repeat: no-repeat;
+    background-position: center bottom ;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+.app {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #efefef;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+
+.app h1 {
+    text-align: center;
+}
+
+.app p {
+    margin: 10px 0;
+}
+
+input {
+    box-sizing: border-box;
+    outline: none;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+
+button {
+    background-color: #333974;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    opacity: .8;
+    transition: .3s;
+    padding: 6px;
+    margin-right: 10px;
+}
+
+
+
+
+.complete {
+    background-color: #5cb85c;
+}
+
+.remove {
+    background-color: #d9534f;
+}
+
+
+.todo-list {
+    padding: 1rem 0;
+    margin-bottom: 0.8rem;
+    margin-top: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.todo {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+
+.todo-form {
+    padding-bottom: 1rem;
+}
+
+
+.todo-form input,  .todo-form select, .select-filter{
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    width: 100%;
+    outline: none;
+}
+
+.input-sbt {
+    cursor: pointer;
+}
+
+
+.filter, .search {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
